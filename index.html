@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    
+    <title>Aside - Free HTML5 Bootstrap 4 Template by ProBootstrap.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Free HTML5 Website Template by ProBootstrap.com" />
+    <meta name="keywords" content="free bootstrap 4, free bootstrap 4 template, free website templates, free html5, free template, free website template, html5, css3, mobile first, responsive" />
+    <meta name="author" content="ProBootstrap.com" />
+</head>
+<body>
+    <div class="card-columns"></div>
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+     $(function() {
+        var str ='';
+        for(var i = 1; i<=100;i++){
+            str += ` <div class="card">
+            <img class="card-img-top probootstrap-animate" src="img/${i}.jpg" alt="Card image cap" data-animate-effect="fadeIn"></div>`;
+        }
+        $('.card-columns').html(str);
+      });
+</script>
+ </body>
+ </html>
